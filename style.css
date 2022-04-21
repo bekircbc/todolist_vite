@@ -1,0 +1,99 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 560px;
+}
+
+.btnAdditem {
+  background-color: rgb(64, 64, 129);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.btnDeleteitem {
+  background-color: rgb(148, 59, 32);
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.todoItem {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 0.4rem 1rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 500px;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  background-color: rgba(46, 75, 129, 0.4);
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+  padding: 0.3rem 1rem;
+  border-radius: 0.7rem;
+  transition: all 0.3s;
+}
+
+.form__input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form__label {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.form__btn {
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1.8rem;
+  background-color: rgb(124, 104, 104);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form__btn:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.todoItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
